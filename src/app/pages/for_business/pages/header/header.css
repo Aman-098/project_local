@@ -1,0 +1,24 @@
+.font{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer{
+    text-align: center;
+    
+}
+
+.bg-footer{
+    background-color: #161c26;
+}
+
+.btn-help{
+    background-color: #a855f7;
+    color: white;
+    padding: 6px 12px;
+    
+}
+
+.fs-6{
+    font-size: 20px;
+}

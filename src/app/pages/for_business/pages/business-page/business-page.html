@@ -1,0 +1,315 @@
+<!-- header -->
+
+<div class="container-fluid py-3 header">
+
+    <div class="container info">
+        <div class="img">
+            <img src="assets/images/bg-1.jpg" alt="" style="height: 150px; width: 200px;">
+        </div>
+        <div class="business-details">
+            <h2>Business Name</h2>
+            <div class="rating">
+                ⭐⭐⭐⭐☆ <span class="fs-6">(4.2/5 - 120 Reviews)</span>
+            </div>
+        </div>
+    </div>
+    <div class="business-info">
+        <div class="container box">
+            <ul class="list-unstyled">
+                <li class="d-flex align-items-center mb-2">
+                    <i class="bi bi-globe me-2 text-primary"></i>
+                    <a href="#" target="_blank" class="text-decoration-none fs-5">business.com</a>
+                </li>
+                <hr>
+                <li class="d-flex align-items-center mb-2">
+                    <i class="bi bi-telephone me-2 text-success"></i>
+                    <span class="fs-5">+91 9999999999</span>
+                </li>
+                <hr>
+                <li class="d-flex align-items-center">
+                    <i class="bi bi-geo-alt me-2 text-danger"></i>
+                    <span class="fs-5">123 Street, Noida</span>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- header end -->
+
+<!-- Business timing section start -->
+
+<div class="container-fluid bg-fade py-4">
+
+    <div class="button d-flex justify-content-end py-2">
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editModal">Edit Page</button>
+    </div>
+    <div class="container d-flex justify-content-between gap-4">
+        <div class="w-75 py-2 shadow" style="border: 1px solid gray; border-radius: 5px; background-color: white;">
+            <div class="heading d-flex justify-content-between mx-3 align-items-center">
+                <h5 class="mx-2">Location & Hours</h5>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#timeModal">Update</button>
+            </div>
+            <div class="row mt-3">
+                <div class="col-6 text-center">
+                    <div class="map">
+                        <iframe src="https://maps.google.com/maps?q=Noida&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            width="90%" height="200" style="border:0;" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="address mt-3">
+                        <h5>123 street noida</h5>
+                        <a href="https://www.google.com/maps/dir/?api=1&destination=YOUR_DESTINATION"
+                            class="btn btn-outline-primary" target="_blank">Get Directions</a>
+                    </div>
+
+                </div>
+                <div class="col-6 text-center">
+                    <div class="business-hours">
+                        <span class="fs-5 fw-semibold mb-2">Mon 11:00 AM - 11:00 PM</span> <br>
+                        <span class="fs-5 fw-semibold mb-4">Tue 11:00 AM - 11:00 PM</span> <br>
+                        <span class="fs-5 fw-semibold mb-4">Wed 11:00 AM - 11:00 PM</span> <br>
+                        <span class="fs-5 fw-semibold mb-4">Thu 11:00 AM - 11:00 PM</span> <br>
+                        <span class="fs-5 fw-semibold mb-4">Fri 11:00 AM - 11:00 PM</span> <br>
+                        <span class="fs-5 fw-semibold mb-4">Sat 11:00 AM - 11:00 PM</span> <br>
+                        <span class="fs-5 fw-semibold mb-4">Sun 11:00 AM - 11:00 PM</span> <br>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="w-25 py-2 shadow" style="border: 1px solid gray; border-radius: 5px; background-color: white;">
+            <div class="heading">
+                <h5 class="mx-2">About Business Name</h5>
+            </div>
+            <div class="content">
+                <p class="mx-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus voluptates
+                    dicta, magni incidunt, beatae consectetur itaque iusto ad, quaerat deleniti fuga expedita.</p>
+                <hr>
+                <h5 class="mx-2">Category:</h5>
+                <span class="mx-2"><a href="#" class="text-decoration-none">Resturants</a></span>
+                <hr>
+                <h5 class="mx-2">Tags:</h5>
+                <span class="mx-2"><a href="#" class="text-decoration-none">Food</a></span>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- business timing section end -->
+
+<!-- Review section start -->
+
+<div class="container-fluid bg-fade py-2">
+    <div class="container d-flex justify-content-between gap-4">
+        <div class="w-75 py-2 shadow" style="border: 1px solid gray; border-radius: 5px; background-color: white;">
+            <div class="heading">
+                <h5 class="mx-3">Reviews</h5>
+            </div>
+            <!-- progress bar for reviews -->
+            <div class="container mt-4 d-flex justify-content-center align-items-center">
+                <div class="w-25 mx-auto">
+                    <div class="rating">
+                        <span class="fs-4 text-warning">⭐⭐⭐⭐☆</span>
+                        <br>
+                        <span class="fs-6 text-muted ">(4.2/5 - 120 Reviews)</span>
+                    </div>
+                </div>
+                <div class="w-75">
+                    <div class="mb-2 d-flex align-items-center">
+                        <span class="me-1" style="width: 70px;">5 Stars</span>
+                        <div class="progress flex-grow-1" style="height: 15px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 40%;"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-2 d-flex align-items-center">
+                        <span class="me-1" style="width: 70px;">4 Stars</span>
+                        <div class="progress flex-grow-1" style="height: 15px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 20%;"
+                                aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-2 d-flex align-items-center">
+                        <span class="me-1" style="width: 70px;">3 Stars</span>
+                        <div class="progress flex-grow-1" style="height: 15px;">
+                            <div class="progress-bar bg-secondary" role="progressbar" style="width: 10%;"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-2 d-flex align-items-center">
+                        <span class="me-1" style="width: 70px;">2 Stars</span>
+                        <div class="progress flex-grow-1" style="height: 15px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 10%;"
+                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-2 d-flex align-items-center">
+                        <span class="me-1" style="width: 70px;">1 Stars</span>
+                        <div class="progress flex-grow-1" style="height: 15px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 20%;"
+                                aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- progress bar ends -->
+
+            <div class="recommended-reviews mt-5">
+                <div class="heading py-2">
+                    <h5 class="mx-3">Recommended Reviews</h5>
+                </div>
+
+                <!-- user review list start -->
+
+                <div class="mx-3 mt-3 shadow" style="border: 1px solid gray; border-radius: 5px;">
+                    <div class="user-info py-1 d-flex justify-content-start align-items-center gap-4">
+                        <img src="assets/images/user.jpg" class="img-fluid rounded-circle"
+                            style="height: 50px; width: 50px;" alt="User Image">
+                        <div class="user-details">
+                            <h6>User name</h6>
+                            <small class="text-muted fw-semibold">2 minutes ago</small>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="review-stars mx-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="content mx-2 mt-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat neque eligendi nesciunt
+                            reiciendis minus, velit, unde iusto, fuga earum harum quaerat! Repellat maxime libero rem,
+                            nihil quis alias autem deserunt provident velit.</p>
+                    </div>
+
+                </div>
+
+                <div class="mx-3 mt-3 shadow" style="border: 1px solid gray; border-radius: 5px;">
+                    <div class="user-info py-1 d-flex justify-content-start align-items-center gap-4">
+                        <img src="assets/images/user.jpg" class="img-fluid rounded-circle"
+                            style="height: 50px; width: 50px;" alt="User Image">
+                        <div class="user-details">
+                            <h6>User name</h6>
+                            <small class="text-muted fw-semibold">2 minutes ago</small>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="review-stars mx-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="content mx-2 mt-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat neque eligendi nesciunt
+                            reiciendis minus, velit, unde iusto, fuga earum harum quaerat! Repellat maxime libero rem,
+                            nihil quis alias autem deserunt provident velit.</p>
+                    </div>
+
+                </div>
+                <!-- user review list end -->
+
+            </div>
+        </div>
+
+        <div class="w-25"></div>
+    </div>
+
+
+</div>
+
+
+<!-- Edit page Modal -->
+ 
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editModalLabel">Edit Business page</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="mb-3">
+                        <label for="">Image:</label>
+                        <input type="file" name="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Business Name:</label>
+                        <input type="text" name="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Website URL:</label>
+                        <input type="url" name="website" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Phone:</label>
+                        <input type="text" name="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Address:</label>
+                        <input type="text" name="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="">About:</label>
+                        <textarea name="about" rows="2" cols="30" class="form-control"></textarea>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Edit page Modal ends -->
+
+<!-- Update timing Modal -->
+
+<div class="modal fade" id="timeModal" tabindex="-1" aria-labelledby="timeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="timeModalLabel">Update Business Hours & Location</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <div class="mb-3">
+                        <label for="">Map URL:</label>
+                        <input type="url" name="website" class="form-control">
+                    </div>
+                    <!-- Business Hours Section -->
+                    <div class="mb-3">
+                        <label for="">Business Hours:</label>
+                        <div id="business-hours-container"></div>
+                        <button type="button" class="btn btn-info text-white mt-2" (click)="addTimeField()">+ Add Time</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Update timing Modal -->

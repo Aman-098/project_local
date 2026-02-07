@@ -1,0 +1,22 @@
+.bg-white{
+    background-color: rgb(252, 252, 252);
+}
+
+h1,h4 {
+    font-family: "Roboto", serif;
+}
+
+.form-control{
+    /* border: 2px solid rebeccapurple; */
+    border-radius: 40px;
+    padding: 10px 50px;
+}
+
+input[placeholder="Search"] {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #212529; /* Text color */
+}
+
+.bg-green{
+    background-color: rgb(199, 238, 199);
+}

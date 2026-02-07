@@ -1,0 +1,10 @@
+.bg-skin{
+    background-color:#fcfbf3;
+}
+
+.heading{
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    margin-top: 30px;
+    /* margin:40px 0 ; */
+}

@@ -1,0 +1,92 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/business" href="#">MySite | Business</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font">
+                <li class="nav-item">
+                    <a class="nav-link text-light" aria-current="page" routerLink="/home">
+                        <i class="bi bi-arrow-left" style="color: white;"></i> For Consumers
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" routerLink="/business">Help</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" routerLink="/business/login">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <button pButton type="button" label="Create free account" [routerLink]="'/business/signup'" class="p-button-info mx-2"></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<router-outlet></router-outlet>
+
+<!-- Footer -->
+<footer class="footer bg-footer text-white py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Vertical Menu -->
+            <div class="col-md-3">
+                <h4 class="text-start">Logo</h4>
+                <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, laboriosam
+                    adipisci!
+                    Sapiente!</p>
+            </div>
+            <div class="col-md-3">
+                <h5>About Us</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">How we Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Our story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Blog</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Businesses</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Contact</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Help Center</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <hr class="mt-4">
+            <div class="col-12">
+                <p class="text-center">© Copyright 2025 by Aman Yadav</p>
+            </div>
+        </div>
+    </div>
+</footer>
